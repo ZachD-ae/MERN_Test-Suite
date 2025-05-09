@@ -1,4 +1,4 @@
-# Project Name
+# MERN_Test_Suite
 
 **Project Description:**
 This **Quiz Application** is a dynamic web app built with **React**, **TypeScript**, and **MongoDB**. It allows users to answer quiz questions and navigate through the quiz flow. The app's data (quiz questions, user progress) is stored in **MongoDB**, providing scalability and flexibility. The frontend is built with **React**, **TypeScript**, and **Cypress** for testing, while the backend is powered by **Express.js** and **MongoDB**.
