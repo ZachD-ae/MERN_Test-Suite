@@ -2,7 +2,7 @@ import { defineConfig } from 'cypress';
 
 export default defineConfig({
   e2e: {
-    baseUrl: 'http://localhost:5173',
+    baseUrl: 'http://127.0.0.1:3001',
     video: false,
   },
   component: {
@@ -10,7 +10,7 @@ export default defineConfig({
       framework: 'react',
       bundler: 'vite',
     },
-    specPattern: 'src/components/**/*.cy.{ts,tsx}', // <-- Use this for test file pattern
-    
+    specPattern: 'src/components/**/*.cy.{ts,tsx}', 
+    supportFile: 'cypress/support/component.ts',
   },
 });
