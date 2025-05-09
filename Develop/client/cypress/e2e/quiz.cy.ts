@@ -1,6 +1,6 @@
 describe('Quiz End-to-End Test', () => {
   it('should display the quiz and allow answering questions', () => {
-    cy.visit('/');  
+    cy.visit('/http://localhost:3001');  
 
     cy.get('h2').should('contain', 'Question 1'); 
     cy.get('button').should('have.length', 4);  
